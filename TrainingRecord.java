@@ -18,6 +18,21 @@ public class TrainingRecord {
    public void addEntry(Entry e){
        tr.add(e);    
    } // addClass
+    
+     public void addSwimEntry(Entry w)
+   {
+       tr.add(w);    
+   } 
+   
+   public void addCycleEntry(Entry c)
+   {
+       tr.add(c);    
+   }s
+   
+   public void addSprintEntry(Entry t)
+   {
+       tr.add(t);    
+   } 
    
    // look up the entry of a given day and month
    public String lookupEntry (int d, int m, int y) {
